@@ -107,7 +107,7 @@ h3 {
 .brand-mark span {
   z-index: 1;
   font-family: "Archivo Black", "Plus Jakarta Sans", Arial, sans-serif;
-  font-size: 1.76rem;
+  font-size: 2.02rem;
   letter-spacing: -0.1em;
   line-height: 1;
 }
@@ -347,7 +347,8 @@ h1 span {
 
 .hero-system {
   position: relative;
-  min-height: 420px;
+  align-self: center;
+  min-height: 540px;
 }
 
 .hero-system::before {
@@ -365,9 +366,9 @@ h1 span {
 
 .stack-card {
   position: absolute;
-  width: min(88%, 390px);
-  min-height: 150px;
-  padding: 22px;
+  width: min(80%, 350px);
+  min-height: 118px;
+  padding: 16px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 26px;
   background: rgba(9, 13, 9, 0.88);
@@ -376,21 +377,21 @@ h1 span {
 }
 
 .stack-card-a {
-  top: 22px;
-  right: 28px;
+  top: 18px;
+  right: 12px;
   transform: rotate(4deg);
 }
 
 .stack-card-b {
-  top: 152px;
+  top: 190px;
   left: 0;
   border-color: rgba(215, 255, 53, 0.3);
   transform: rotate(-5deg);
 }
 
 .stack-card-c {
-  right: 8px;
-  bottom: 0;
+  top: 362px;
+  right: 0;
   transform: rotate(3deg);
 }
 
@@ -402,21 +403,21 @@ h1 span {
 
 .stack-card strong {
   display: block;
-  margin-top: 18px;
+  margin-top: 12px;
   color: var(--text);
   font-family: "Archivo Black", "Plus Jakarta Sans", Arial, sans-serif;
-  font-size: 1.36rem;
+  font-size: 1.02rem;
   font-weight: 400;
   line-height: 1.05;
   text-transform: uppercase;
 }
 
 .stack-card p {
-  margin-top: 12px;
+  margin-top: 8px;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.76rem;
   font-weight: 600;
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 .section {
@@ -745,7 +746,7 @@ h2 {
   }
 
   .hero-system {
-    min-height: 360px;
+    min-height: 540px;
   }
 
   .services-grid {
@@ -805,7 +806,7 @@ h2 {
   }
 
   .brand-mark span {
-    font-size: 1.42rem;
+    font-size: 1.62rem;
   }
 
   .brand-lockup {
